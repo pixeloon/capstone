@@ -24,6 +24,13 @@
 
   // gameBoard is an array of arrays (an array that is filled with other arrays). Let's start by using each to iterate through the gameBoard array, console.logging each item inside the gameBoard array. You should see 8 arrays, each of length 8, logged to your console. Each array here represents a row. 
 
+ gameBoard[0].forEach (function(val, ind, arr) {
+  //gameBoard.forEach (function(val1, ind1, arr1) {
+    console.log("inner: ", arr[ind]); 
+
+ });
+
+
   // Ok, now that we see the gameBoard array contains 8 arrays representing the 8 rows in the board, let's investigate a single row. 
   // Let's use each again, this time invoking it with the first row in the gameBoard. Let's go through and console.log each item in that row. 
 
